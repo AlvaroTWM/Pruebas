@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import { DevToolbarBadge } from 'astro/runtime/client/dev-toolbar/ui-library/badge.js';
+import Badge from '../components/Badge.astro';
+---
+
+<Layout title="Alvaro Arambulo">
+	<main>
+		<section class=" w-full lg:w-[740px] mx-auto py-44">
+		<h1 class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-10">
+			Hey, soy Julian  <a 
+			href="https://www.linkedin.com/in/alvaro-arambulo/" 
+			target="_blank" 
+			rel="noopener" 
+			class="flex justify-center items-center"> 
+		
+			<Badge>Disponible para trabajar</Badge>
+		</a>
+		</h1>
+		<h2 class="text-xl opacity-80">
+			Me presento como un joven entusiasta del desarrollo web, actualmente, me encuentro inmerso en el aprendizaje del STACK MERN, buscando dominar estas tecnologías claves para el desarrollo web moderno. 
+		</h2>
+	</section>
+	</main>
+</Layout>
+
