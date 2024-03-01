@@ -1,27 +1,29 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Badge from '../components/Badge.astro';
-import Header from '../components/Header.astro'
 import Social from '../components/Social.astro';
+import Presentation from '../components/Presentation.astro';
 ---
 
-<Layout title="Alvaro Arambulo">
+<Layout title="Portfolio Alvaro">
 	<main>
 		<section class=" w-full lg:w-[740px] mx-auto py-44">
-		<h1 class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-10">
-			Hey, soy Julian  <a 
+		<h1 class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-10 ">
+			Hola! Soy Alvaro Arambulo  <a 
 			href="https://www.linkedin.com/in/alvaro-arambulo/" 
 			target="_blank" 
 			rel="noopener" 
 			class="flex justify-center items-center"> 
-			<Badge>Disponible para trabajar</Badge>
 		</a>
 		</h1>
 		<h2 class="text-xl opacity-80 ">
-			Me presento como un joven entusiasta del desarrollo web, actualmente, me encuentro inmerso en el aprendizaje del STACK MERN, buscando dominar estas tecnologías claves para el desarrollo web moderno.
+			
+			<span class="font-semibold underline dark:text-white decoration-indigo-500">Desarrollador FullStack.</span>
+			 Actualmente, me encuentro inmerso en el aprendizaje de las tecnologias mas optimas, buscando dominar las mismas para el desarrollo WEB moderno.
 		</h2>
 	</h1>
 	<Social/>
+	<Presentation/>
+</section>
 	</main>
 </Layout>
 
