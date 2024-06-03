@@ -4,6 +4,14 @@ export default {
 	darkMode: 'class',
 	theme: {
 		extend: {},
+		extend: {
+			fontFamily: {
+				'nunito': ['nunito', 'sans-serif'],
+			},
+		  },
 	},
 	plugins: [],
 }
+
+
+// tailwind.config.js
